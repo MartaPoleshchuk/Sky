@@ -1,0 +1,30 @@
+.header {
+    width: 100%;
+    height: auto;
+    top: 0;
+
+    &__top {
+        height: 2rem;
+        background-color: $color-black;
+        color: $color-white;
+        text-align: center;
+        font-size: 0.9rem;
+        padding:0.5rem;
+
+    }
+
+    &__center {
+        background-color: $color-lightgrey;
+        .logo {
+            display:flex;
+            align-items: center;
+            &__img {
+                width: 3rem;
+
+            }
+            &__title {
+                
+            }
+        }
+    }
+}
