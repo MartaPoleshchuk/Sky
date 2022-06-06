@@ -1,0 +1,57 @@
+.product {
+
+    width: 15%;
+    margin: 2rem;
+        
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 0.9rem;
+    .image {
+        width: 6rem;
+        margin: 3rem;
+
+    }
+    .name {
+        font-size: 0.8rem;
+
+        &__text1 {
+        font-weight: 500;
+        letter-spacing: 0.03em;
+        }
+
+        &__text2 {
+        font-weight: 200;
+        letter-spacing: 0.03em;
+        color: $color-greytext;
+        
+
+        }
+    }
+    .pricerating {
+        display:flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        gap: 1rem;
+        
+        &__pricenew {
+            font-size: 0.9rem;
+            font-weight: 700;
+
+
+        }
+        &__priceold {
+            font-size:0.8rem;
+            font-weight: 200;
+            text-decoration: line-through;
+            color: $color-greytext;
+
+        }
+        &__rating {
+
+        }
+    }
+
+
+}

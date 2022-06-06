@@ -2,6 +2,8 @@
     width: 100%;
     height: auto;
     top: 0;
+    background-color: $color-lightgrey;
+   
 
     &__top {
         height: 2rem;
@@ -25,7 +27,7 @@
             display:flex;
             justify-content: flex-start;
             align-items: center;
-           
+            
 
             &__img {
             // height: 3rem;
@@ -39,18 +41,25 @@
         }
         .input{
             position: relative;
-            // display: inline-block;
+            display: inline-block;
+            
             width: 50%;
-            margin: 2rem;
-            padding: 1rem;
+            margin-left: 3rem;
+           
 
-            color: $color-lightgrey;
-            background-color: $color-white;
-
-            border-radius: 10px;
+            &__text {
+            width: 80%;
+            border-radius: 20px;
             border: none;
+            margin: 1rem;
+            padding: 0.8rem 2.5rem;
+            color: $color-greytext;
+            background-color: $color-white;
+            }
+            
+            
 
-            &:before{
+            &:before {
                 content: url('../img/icons/search.svg');
     
                 position:absolute;
@@ -58,11 +67,94 @@
                 height: 1rem;
                 
     
-                // top: 2.8rem;
-                // left:2.5rem;
-                // z-index: 98;
+                top: 1.65rem;
+                left:1.7rem;
+                z-index: 9;
                } 
 
         }
+        .side {
+            width: 30%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            font-size: 0.8rem;
+            font-weight: 200;
+
+
+           &__container {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+           } 
+           &__element {
+               padding-right: 0.7rem;
+           }
+
+            
+        }
     }
+    &__navigation {
+        background-color: $color-white;
+
+        font-size: 0.8rem;
+        font-weight: 300;
+        
+
+        .lists{
+            margin: 0;
+            height: 3rem;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            list-style-type: none;
+        }
+        .list {
+            // padding: 2rem;
+
+        }
+        .red {
+            color:red;
+        }
+    
+
+
+    }
+    &__banner {
+        background-image: url('../img/banner.jpg');
+        height: 464px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 2rem 0;
+
+        .text {
+
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+
+            padding: 5rem 7rem;
+
+            &__head {
+            font-size: 2rem;
+            font-weight: 700;
+            color:$color-white;
+
+            // padding:3rem;
+        }
+            &__descr {
+            font-size: 0.8rem;
+            font-weight: 100;
+            color:$color-white;
+
+            // padding:3rem;
+        }
+    }
+    }
+
+    
 }
