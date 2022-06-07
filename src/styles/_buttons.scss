@@ -1,7 +1,14 @@
 .btn {
     color: $color-white;
-    font-weight: 600;
+    font-weight: 500;
     border-radius: 7px;
     background-color: $color-blue;
-    padding:0.9rem;
+    padding:0.8rem;
+
+    &__clear {
+        color: $color-white;
+        border: 1px solid $color-white;
+        border-radius: 18px;
+        padding: 0.5rem 2rem;
+    }
 }
