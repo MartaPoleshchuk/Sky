@@ -5,6 +5,11 @@
     padding: 3rem 0;
 
 }
+.bodywrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .choice{
     width:20%;
     
@@ -81,11 +86,22 @@
 
 
 
+.products {
+    width:80%;
+}
+.productline {
+
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
+
 
 
 .product {
 
-    width: 15%;
+    // width: 15%;
     margin: 2rem;
         
         display:flex;
