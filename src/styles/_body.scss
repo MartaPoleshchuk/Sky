@@ -1,3 +1,88 @@
+.title {
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: $color-black;
+    padding: 3rem 0;
+
+}
+.choice{
+    width:20%;
+    
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  
+    .multiselect {
+        width: 100%;
+      }
+      
+    .selectBox {
+        position: relative;
+        
+      }
+      
+      
+    .selectBox select {
+        width: 100%;
+        font-weight: bold;
+
+        border:none;
+        
+      }
+      
+      .overSelect {
+        position: absolute;
+        
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        
+      }
+          
+      #checkboxes {
+        display: flex;
+        flex-direction: column;
+        border: 1px #dadada solid;
+        border:none;
+       
+      }
+      
+      #checkboxes label {
+        display: block;
+      
+      }
+      
+      #checkboxes label:hover {
+        background-color: #1e90ff;
+      }
+      
+      
+
+}
+.text {
+    font-size: 0.8rem;
+    color: $color-greytext
+}
+.view {
+    border:none;
+    outline:none;
+   
+}
+.bottomborder {
+    border-bottom: 1px solid $color-lightgrey;
+    margin: 1rem 0;
+}
+
+
+
+
+
+
 .product {
 
     width: 15%;

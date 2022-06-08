@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="../src/script.js"></script>
 </head>
 <body>
     <header class="header">
@@ -77,6 +78,59 @@
 
         </div>
     </header>
+    <h2 class="title container">Snowboards</h2>
+
+
+    <div class="container">
+    <div class="choice">
+        <form class="wrap">
+            <div class="multiselect">
+              <div class="selectBox" onclick="showCheckboxes()">
+                <select>
+                  <option>Categories</option>
+                </select>
+                <div class="overSelect"></div>
+              </div>
+              <div id="checkboxes">
+                <label class="text" for="All">
+                  <input  type="checkbox">All-Mauntain Snowboards(51)</label>
+               
+              </div>
+            </div>
+          </form>
+          <input class="view"  type="search" placeholder="View more.."> 
+          <div class="bottomborder"></div>
+
+    <form class="wrap">
+        <div class="multiselect">
+          <div class="selectBox" onclick="showCheckboxes()">
+            <select>
+              <option>Gender</option>
+            </select>
+            <div class="overSelect"></div>
+          </div>
+          <div id="checkboxes">
+            <label class="text" for="Men">
+              <input  type="checkbox">Men'(6)</label>
+            <label class="text" for="Women">
+              <input type="checkbox">Women's(32)</label>
+            <label class="text" for="Unisex">
+              <input type="checkbox">Unisex(52)</label>
+          </div>
+        </div>
+      </form>
+      <input class="view"  type="search" placeholder="View more.."> 
+      <div class="bottomborder"></div>
+    </div>
+
+
+    <!-- в этом контейнере продукты размещаем дальлше задавая ширину 80% -->
+    </div>
+
+
+      
+
+
 
         <div class="product">
             <img class="image" src="../src/img/product.png" alt="">
@@ -101,6 +155,6 @@
 
     
 
-Test
+
 </body>
 </html>
