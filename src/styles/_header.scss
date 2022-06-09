@@ -46,6 +46,12 @@
             width: 50%;
             margin-left: 3rem;
            
+            &:focus {
+                outline:0;
+                // border:none;
+
+            }
+           
 
             &__text {
             width: 80%;
@@ -55,6 +61,7 @@
             padding: 0.8rem 2.5rem;
             color: $color-greytext;
             background-color: $color-white;
+           
             }
             
             
@@ -73,6 +80,7 @@
                } 
 
         }
+       
         .side {
             width: 30%;
             display: flex;
