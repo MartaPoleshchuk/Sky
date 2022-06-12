@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <script src="../src/script.js"></script>
 </head>
 <body>
@@ -482,7 +483,42 @@
    <div class="bottomborder"></div>
    <h2 class="title__bottom container">Best Sellers</h2>
 
+   <div class="swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
 
+        <div class="bestproducts">
+            <div class="bestproduct">
+       <img class="bestproduct__img" src="../src/img/best1.png">
+       <div class="bestproduct__name">POC Obex Spin Helmet<br></div>
+       <div class="bestproduct__price">$ 279.95</div>
+       
+            </div>
+            <div class="bestproduct">
+            <img class="bestproduct__img" src="../src/img/best2.png">
+            <div class="bestproduct__name">Rossignol<br>EVO 70 Ski Boots</div>
+            <div class="bestproduct__price">$ 89.99</div>
+            
+            </div>
+            <div class="bestproduct">
+    <img class="bestproduct__img" src="../src/img/best3.png">
+    <div class="bestproduct__name">Tecnica<br>JT 2 Pearl Girl Ski Boots</div>
+    <div class="bestproduct__price">$ 119.95</div>
+    
+            </div>
+            <div class="bestproduct">
+                <img class="bestproduct__img" src="../src/img/best4.png">
+                <div class="bestproduct__name">Rossignol<br>XV Sashimi LG Lite</div>
+                <div class="bestproduct__price">$ 599.95</div>
+                
+            </div>
+        </div> 
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    </div>
    <br><br>
   <div class="bottomborder"></div>
   <div class="bottomcontainer">
@@ -495,24 +531,82 @@
     <div class="help">
       <div class="help__title">Stay in the know</div>
       <div class="help__text">Be the first to see sales & new gear!</div>
+      <div class="email">
+        <span class="help__text1">Email address</span>
       <div class="input__cont">
       <input class="help__input"   type="email">
       <a class="btn__1" href="#">Submit</a>
       </div>
     </div>
+    </div>
 
   </div>
 </div>
-
-
-      
-
-
-
+<footer>
+<div class="footer__navigation">
+    <ul class="lists">
+        <li class="list">Categories</li>
+        <li class="list">Ski boots</li>
+        <li class="list"> Ski accessories</li>
+        <li class="list"> Apparel</li>
+        <li class="list"> Snowboard shop</li>
+        <li class="list"> Brands</li>
+        <li class="list"> Sale</li>
         
+    </ul>
+</div>
+<div class="footer__information">
+    <div class="textbox">
+        <span class="textheader">Gift Certificates </span>
+        <span class="texttext">e-Gift Certificate</span>
+        <span class="texttext">Classic gift Card</span>
+       
+    </div>
+    <div class="textbox">
+        <span class="textheader">Resources </span>
+        <span class="texttext">Returns</span>
+        <span class="texttext">Order Status</span>
+        <span class="texttext">Sale Item Policy</span>
+        <span class="texttext">Sales Tax Policy</span>
+        <span class="texttext">Terms of Use</span>
+        <span class="texttext">Privacy Policy</span>
+        <span class="texttext">Do Not Sell My Personal Data</span>
+        <span class="texttext">International Shipping Policy</span>
+        <span class="texttext">Learning Resources</span>
+        <span class="texttext">Gift Card Terms & Conditions</span>
+        <span class="texttext">Special Group Offers</span>
+       
+    </div>
+    <div class="textbox">
+        <span class="textheader">About M-SPORT </span>
+        <span class="texttext">About M_SPORT</span>
+        <span class="texttext">Press Releases</span>
+        <span class="texttext">Group Sales</span>
+        <span class="texttext">Land Your Dream Job</span>
+        <span class="texttext">Affiliate Program</span>
+        <span class="texttext">Accessibility Statement</span>
+       
+    </div>
+    <div class="textbox">
+        <img class="footer__img" src="../src/img/icons/social.png">
+        <img class="footer__img" src="../src/img/icons/Download App.png">
+        <div class="imgflex">
+        <img class="footer__img" src="../src/img/icons/googleplay.png">
+        <img class="footer__img" src="../src/img/icons/appstore.png">
+    </div>
+    </div>
 
-    
 
+</div>
+<br>
+<div class="footer__copyright">
+    <img src="../src/img/logo_footer.png">
+    <div class="texttext">&copy; M-SPORT.com - All Rights Reserved</div>
+</div>      
 
+</footer>
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script type="module" src="../../js/swiper.js"></script>
 </body>
 </html>

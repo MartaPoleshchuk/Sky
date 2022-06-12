@@ -274,6 +274,50 @@
         padding: 3px 4px;
     }
 }
+.swiper {
+    width: 100%;
+    height: auto;
+  }
+.bestproducts {
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    // gap:0.5rem;
+
+}
+.bestproduct {
+    position: relative;
+    width: 25%;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:flex-start ;
+    gap:0.5rem;
+    border: 1px solid $color-lightgrey;
+    margin: 1rem;
+    padding: 0.5rem;
+
+    &__img {
+        margin: 0 auto;
+    }
+    &__name {
+        font-size: 0.8rem;
+        font-weight: 200;
+        padding-bottom: 0.5rem;
+    }
+    &__price {
+        font-size: 0.8rem;
+        font-weight: 600;
+        margin-bottom: 0.1rem;
+    }
+}
+
+
+
+
+
+
 
 .bottomcontainer {
     width: 100%;
@@ -297,10 +341,15 @@
         font-size: 0.8rem;
 
     }
+    &__text1 {
+        font-size: 0.6rem;
+    }
     &__input {
+
         position: relative;
         border: 1px solid $color-lightgrey;
         border-radius: 7px 0 0 7px;
+        width:17rem;
         
 
     
@@ -311,5 +360,82 @@
     .input__cont {
         display: flex;
         gap: 0;
+    }
+    .email{
+        display:flex;
+        flex-direction: column;
+        gap:0;
+    }
+}
+.footer {
+    &__navigation {
+    
+    color: $color-white;
+    background-color: $color-blue;
+    width:100vw;
+    
+    font-size: 0.9rem;
+    font-weight: 200;
+   
+
+    .lists {
+        padding:0 6rem;
+        margin:0;
+        height: 2.5rem;
+
+        display: flex;
+        justify-content: space-evenly;
+        align-items:center;
+        list-style-type: none;
+    }
+    .list {
+        padding:2rem;
+    }
+    }
+
+    &__information {
+        margin-top: 2.5rem;;
+        display:flex;
+        justify-content: space-around;
+        align-items: flex-start;
+
+        .textbox {
+            display:flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap:0.2rem;
+        }
+        .textheader {
+            padding:0.5rem 0;
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: $color-black;
+        }
+        .texttext {
+            font-size: 0.7rem;
+            font-weight: 200;
+            color: $color-black;
+        }
+        .footer__img {
+            padding-bottom:1rem;
+        }
+        .imgflex {
+            display: flex;
+            gap:0.5rem;
+        }
+    }
+
+    &__copyright {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        gap:0.5rem;
+
+        .texttext {
+            font-size: 0.7rem;
+            font-weight: 200;
+            color: $color-black;
+        }
     }
 }
