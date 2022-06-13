@@ -1,0 +1,130 @@
+.structure {
+    padding:1.5rem 0;
+    color:$color-greytext;
+    font-size: 0.8rem;
+    font-weight: 400;
+
+    .span {
+        color:$color-black;
+    }
+}
+.linkproduct {
+    font-size: 0.8rem;
+    color:$color-link;
+ }
+
+.productpage {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:8rem;
+
+        .productpart {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            width: 50%;
+            padding:0 1.5rem;
+            &__img {
+                margin:0 auto;
+                padding: 1rem 0;
+                height: 20rem;
+              
+
+            }
+            .gallery {
+                display:flex;
+                justify-content: flex-start;
+                align-items: center;
+            }
+            .smallimage {
+                width:5rem;
+                height: 5rem;
+                margin:0.5rem;
+                border: 1px solid $color-lightgrey;
+            }
+            .border {
+                width:100%;
+                margin-top: 1.5rem;
+            }
+            .productselect {
+                width:100%;
+
+                .option{
+                    margin-top: 1rem;
+                    margin-bottom: 1rem;
+                    color: $color-black;
+
+                }                
+             
+            }
+            .product__price {
+                font-size: 1.5rem;
+                font-weight: 600;
+                color: $color-black;
+                padding-top: 1.5rem;
+
+            }
+
+            .stars {
+                display:flex;
+                justify-content: flex-start;
+                align-items: center;
+                gap:0.3rem;
+            }
+            .size {
+                display:flex;
+                justify-content: flex-start;
+                align-items: center;
+                gap: 0.5rem;
+                font-size: 0.8rem;
+
+                &__var {
+                    padding: 5px;
+                    
+                    border: 1px solid $color_lightgrey;
+
+                    
+                }
+                &__blue{
+                    padding: 5px;
+                    border: 1px solid $color-link;
+                    color:$color-link;
+                }
+
+                &__title{
+                    margin-right: 5rem;
+
+                }
+
+            }
+
+
+            
+        }
+
+}
+
+
+
+
+
+
+
+.color {
+    background-color: $color-lightgrey;
+    color:$color-black;
+    font-weight: 400;
+    padding: 2rem 0;
+    
+    &__1 {
+        margin-right:1rem;
+    }
+    &__2 {
+        margin-left: 1rem;
+    }
+    &__3 {
+        padding:0;
+    }
+}
