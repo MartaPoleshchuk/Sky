@@ -1,4 +1,4 @@
-import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js'
+import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js';
     
 const swiper = new Swiper('.swiper', {
   // Optional parameters
@@ -8,7 +8,6 @@ const swiper = new Swiper('.swiper', {
   // If we need pagination
   pagination: {
     el: '.swiper-pagination',
-    
   },
 
   // Navigation arrows

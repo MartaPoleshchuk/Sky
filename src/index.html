@@ -9,8 +9,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
-    <script src="../src/script.js"></script>
+    
+    
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+  />
+    <!-- <script src="../src/script.js"></script> -->
 </head>
 <body>
     <header class="header">
@@ -446,8 +451,15 @@
 
 
         </div>
-        <div class="product">
-            <img class="image" src="../src/img/product3.png" alt="">
+        <div class="product trip">
+
+            <img class="trip__image" src="../src/img/Trip.png" alt="">
+            <div>
+            <div class="trip__title1">EVO TRIP</div>
+            <div class="trip__title2">ADVANTAGE TRAVEL PACKAGE</div>
+            </div>
+            <div class="trip__link">Travel with us</div>
+            <!-- <img class="image" src="../src/img/product3.png" alt="">
             <div class="name">
                 <span class="name__text1">Niche:</span> 
                 <span class="name__text2">Nightshade Snowboard - Women's - 2019/2020</span>
@@ -461,63 +473,66 @@
                 <img class="pricerating__rating" src="../src/img/icons/Star.png"></img>
                 <img class="pricerating__rating" src="../src/img/icons/Star.png"></img>
                 <img class="pricerating__rating" src="../src/img/icons/Star_1.png"></img>
-                </div>
+                </div> -->
+           
+           
             </div>
 
 
         </div>
 
     </div>
-        <div class="page">
-          <span class="p">Page</span>
-        <select class="select">
-            <option value="Most popular">3</option>
-            <option value="Less popular">4</option>
-        </select>
-        <span class="p">of 25</span>
-        </div>
-
+      
+        
     </div>
+    <div class="page">
+        <span class="p">Page</span>
+      <select class="select">
+          <option value="Most popular">3</option>
+          <option value="Less popular">4</option>
+      </select>
+      <span class="p">of 25</span>
+      </div>
     
     </div>
    <div class="bottomborder"></div>
    <h2 class="title__bottom container">Best Sellers</h2>
 
-   <div class="swiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
 
-        <div class="bestproducts">
-            <div class="bestproduct">
-       <img class="bestproduct__img" src="../src/img/best1.png">
-       <div class="bestproduct__name">POC Obex Spin Helmet<br></div>
-       <div class="bestproduct__price">$ 279.95</div>
-       
-            </div>
-            <div class="bestproduct">
-            <img class="bestproduct__img" src="../src/img/best2.png">
-            <div class="bestproduct__name">Rossignol<br>EVO 70 Ski Boots</div>
-            <div class="bestproduct__price">$ 89.99</div>
+                <div class="bestproducts container">
+                    <div class="bestproduct">
+            <img class="bestproduct__img" src="../src/img/best1.png">
+            <div class="bestproduct__name">POC Obex Spin Helmet<br></div>
+            <div class="bestproduct__price">$ 279.95</div>
             
+                    </div>
+                    <div class="bestproduct">
+                    <img class="bestproduct__img" src="../src/img/best2.png">
+                    <div class="bestproduct__name">Rossignol<br>EVO 70 Ski Boots</div>
+                    <div class="bestproduct__price">$ 89.99</div>
+                    
+                    </div>
+                    <div class="bestproduct">
+                        <img class="bestproduct__img" src="../src/img/best3.png">
+                        <div class="bestproduct__name">Tecnica<br>JT 2 Pearl Girl Ski Boots</div>
+                        <div class="bestproduct__price">$ 119.95</div>
+            
+                    </div>
+                    <div class="bestproduct">
+                        <img class="bestproduct__img" src="../src/img/best4.png">
+                        <div class="bestproduct__name">Rossignol<br>XV Sashimi LG Lite</div>
+                        <div class="bestproduct__price">$ 599.95</div>
+                        
+                    </div>
+                </div> 
             </div>
-            <div class="bestproduct">
-    <img class="bestproduct__img" src="../src/img/best3.png">
-    <div class="bestproduct__name">Tecnica<br>JT 2 Pearl Girl Ski Boots</div>
-    <div class="bestproduct__price">$ 119.95</div>
-    
-            </div>
-            <div class="bestproduct">
-                <img class="bestproduct__img" src="../src/img/best4.png">
-                <div class="bestproduct__name">Rossignol<br>XV Sashimi LG Lite</div>
-                <div class="bestproduct__price">$ 599.95</div>
-                
-            </div>
-        </div> 
-      </div>
-    </div>
-    <div class="swiper-pagination"></div>
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
+        </div>
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
     </div>
    <br><br>
     <div class="bottomborder"></div>
@@ -607,6 +622,6 @@
 </footer>
 
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-<script type="module" src="../../js/swiper.js"></script>
+<script type="module" src="./js/swiper.js"></script>
 </body>
 </html>

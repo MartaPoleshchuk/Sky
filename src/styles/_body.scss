@@ -258,6 +258,35 @@
         border-left: 1px solid $color-lightgrey;
         border-right: 1px solid $color-lightgrey;
     }
+    .trip {
+        border: 1px solid #000000;
+        padding:20px;
+        // height:100%;
+   
+        &__image {
+            width:15rem;
+
+        }
+
+        &__title1 {
+            color: $color-black;
+            font-size: 1.4rem;
+            font-weight: 600;
+            text-align: center;
+        }
+   
+        &__title2 {
+            color: $color-black;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+        
+        &__link {
+            font-size: 0.8rem;
+            text-decoration: underline;
+        }
+    }
+    
     
 }
 .page{
