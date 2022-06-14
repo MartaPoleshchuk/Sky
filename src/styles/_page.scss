@@ -9,9 +9,9 @@
     }
 }
 .linkproduct {
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     color:$color-link;
- }
+    }
 
 .productpage {
     display: flex;
@@ -29,8 +29,7 @@
             &__img {
                 margin:0 auto;
                 padding: 1rem 0;
-                height: 20rem;
-              
+                height: 32rem;
 
             }
             .gallery {
@@ -55,9 +54,9 @@
                     margin-top: 1rem;
                     margin-bottom: 1rem;
                     color: $color-black;
+                    
 
                 }                
-             
             }
             .product__price {
                 font-size: 1.5rem;
@@ -73,18 +72,17 @@
                 align-items: center;
                 gap:0.3rem;
             }
-            .size {
+            .part {
                 display:flex;
                 justify-content: flex-start;
                 align-items: center;
                 gap: 0.5rem;
-                font-size: 0.8rem;
-
+                font-size: 0.85rem;
+                margin: .5rem 0 1.5rem 0;
                 &__var {
-                    padding: 5px;
+                    padding: 5px 10px;
                     
                     border: 1px solid $color_lightgrey;
-
                     
                 }
                 &__blue{
@@ -92,15 +90,46 @@
                     border: 1px solid $color-link;
                     color:$color-link;
                 }
-
                 &__title{
-                    margin-right: 5rem;
-
+                    
+                    width:5rem;
                 }
-
+                &__circle {
+                    position:relative;
+                    border: 1px solid $color-lightgrey;
+                    border-radius:50%;
+                    height:2rem;
+                    width:2rem;
+                }
+                .img {
+                    position: absolute;
+                    margin:0.85rem 0.28rem;
+                }
+                .img1 {
+                    position: absolute;
+                    margin:0.25rem 0.25rem;
+                }
             }
+            .receive {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                gap:0.5rem;
 
-
+                font-size: 0.85rem;
+                &__row {
+                    display: flex;
+                    justify-self: start;
+                    align-items: center;
+                    gap:0.5rem;
+                }
+                
+            }
+            .part__buy {
+                font-size: 0.8rem;
+            }
+            
             
         }
 

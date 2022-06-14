@@ -19,10 +19,29 @@
         color: $color-white;
         font-weight: 500;
         font-size: 0.8rem;
-   
         background-color: $color-blue;
         padding:0.6rem 1rem;
         text-decoration: none;
         border-radius: 0 7px 7px 0;
+    }
+    &__2 {
+        width:100%;
+        text-align: center;
+        color: $color-white;
+        font-weight: 500;
+        font-size: 0.8rem;
+        background-color: $color-blue;
+        padding:1rem;
+        text-decoration: none;
+    }
+    &__3 {
+        width:100%;
+        text-align: center;
+        font-weight: 500;
+        color: $color-black;
+        border: 1px solid $color-lightgrey;
+        margin:1rem 0;
+        padding: 1rem;
+        text-decoration: none;
     }
 }

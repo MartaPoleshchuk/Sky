@@ -43,6 +43,28 @@ body {
   border-radius: 0 7px 7px 0;
 }
 
+.btn__2 {
+  width: 100%;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 0.8rem;
+  background-color: #0772BF;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.btn__3 {
+  width: 100%;
+  text-align: center;
+  font-weight: 500;
+  color: #000000;
+  border: 1px solid #C4C4C4;
+  margin: 1rem 0;
+  padding: 1rem;
+  text-decoration: none;
+}
+
 .header {
   width: 100%;
   height: auto;
@@ -820,7 +842,7 @@ body {
 }
 
 .linkproduct {
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   color: #1977DA;
 }
 
@@ -858,7 +880,7 @@ body {
 .productpage .productpart__img {
   margin: 0 auto;
   padding: 1rem 0;
-  height: 20rem;
+  height: 32rem;
 }
 
 .productpage .productpart .gallery {
@@ -915,7 +937,7 @@ body {
   gap: 0.3rem;
 }
 
-.productpage .productpart .size {
+.productpage .productpart .part {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -926,22 +948,74 @@ body {
       -ms-flex-align: center;
           align-items: center;
   gap: 0.5rem;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
+  margin: .5rem 0 1.5rem 0;
 }
 
-.productpage .productpart .size__var {
-  padding: 5px;
+.productpage .productpart .part__var {
+  padding: 5px 10px;
   border: 1px solid #C4C4C4;
 }
 
-.productpage .productpart .size__blue {
+.productpage .productpart .part__blue {
   padding: 5px;
   border: 1px solid #1977DA;
   color: #1977DA;
 }
 
-.productpage .productpart .size__title {
-  margin-right: 5rem;
+.productpage .productpart .part__title {
+  width: 5rem;
+}
+
+.productpage .productpart .part__circle {
+  position: relative;
+  border: 1px solid #C4C4C4;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+}
+
+.productpage .productpart .part .img {
+  position: absolute;
+  margin: 0.85rem 0.28rem;
+}
+
+.productpage .productpart .part .img1 {
+  position: absolute;
+  margin: 0.25rem 0.25rem;
+}
+
+.productpage .productpart .receive {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.productpage .productpart .receive__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-self: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.5rem;
+}
+
+.productpage .productpart .part__buy {
+  font-size: 0.8rem;
 }
 
 .color {
