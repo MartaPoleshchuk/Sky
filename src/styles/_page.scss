@@ -11,6 +11,13 @@
 .linkproduct {
     font-size: 0.85rem;
     color:$color-link;
+
+    &__1{
+        font-size: 0.85rem;
+        color:$color-link;
+        padding-left:0.3rem ;
+        padding-top: 0.6rem;
+    }
     }
 
 .productpage {
@@ -46,6 +53,11 @@
             .border {
                 width:100%;
                 margin-top: 1.5rem;
+                
+                &__1 {
+                    margin: 0;
+                    // width:100%;
+                }
             }
             .productselect {
                 width:100%;
@@ -53,10 +65,20 @@
                 .option{
                     margin-top: 1rem;
                     margin-bottom: 1rem;
+                    padding-left:0.1rem;
                     color: $color-black;
                     
 
-                }                
+                    &__1 {
+                        margin:1rem 0 0 0;
+                        color: $color-black;
+                        padding-left:0.3rem;
+                        
+                    }
+                    
+
+                } 
+                
             }
             .product__price {
                 font-size: 1.5rem;
@@ -130,7 +152,19 @@
                 font-size: 0.8rem;
             }
             
-            
+            .table1{
+                width:100%;
+                border-color: $color-lightgrey;
+                border-bottom: 1px solid $color-lightgrey;
+                
+                           
+            }
+            td {
+               padding-top:0.5rem;
+            }
+            table td:first-child {
+                width:35%;
+            }
         }
 
 }
