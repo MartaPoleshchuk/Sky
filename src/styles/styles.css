@@ -513,6 +513,10 @@ body {
   color: #A9A9A9;
 }
 
+.product .name .linktopage {
+  text-decoration: none;
+}
+
 .product .pricerating {
   width: 100%;
   display: -webkit-box;
