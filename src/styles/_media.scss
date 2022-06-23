@@ -1,0 +1,152 @@
+@media (min-width: 480px) and (max-width: 768px) {
+    .container {
+        max-width: 748px;
+    }
+    .btn {
+        
+        font-weight: 500;
+        font-size: 0.7rem;
+        border-radius: 7px;
+        padding:0.5rem 0.7rem;
+    }
+        
+    .btn__clear {
+        border-radius: 18px;
+        padding: 0.3rem 1rem;
+        text-decoration: none;
+        font-size: 0.6rem;
+    }
+    .header {
+        &__top {
+            height: 0.9rem;
+            background-color: $color-black;
+            color: $color-white;
+            text-align: center;
+            font-size: 0.5rem;
+            padding:0.1rem;
+    
+        }
+    
+        &__center {
+            
+            height: 3rem;
+    
+              
+            .logo {
+                    
+                &__img {
+                height: 3rem;
+                    padding: 0.4rem;
+                }
+                &__title {
+                    color: $color-black;
+                    font-weight: 600;
+                    font-size: 0.8rem;
+    
+                }
+            }
+            .input{
+                
+                
+                width: 50%;
+                margin-left: 1.2rem;
+               
+                
+    
+                &__text {
+                width: 80%;
+                border-radius: 20px;
+                border: none;
+                margin: 0.5rem;
+                padding: 0.6rem 2rem;
+                color: $color-greytext;
+                background-color: $color-white;
+                 
+                }
+                
+                
+    
+                &:before {
+                    
+                    width: 1rem;
+                    height: 1rem;
+                    
+        
+                    top: 1rem;
+                    left:1rem;
+                    
+                   } 
+    
+            }
+            .side {
+                width: 30%;
+                
+    
+                font-size: 0.7rem;
+                font-weight: 200;
+    
+    
+            &__container {
+                
+            } 
+            &__element {
+                padding-right: 0.7rem;
+            }
+    
+                
+            }
+        }
+        &__navigation {
+            
+            
+    
+            font-size: 0.7rem;
+            font-weight: 400;
+            
+    
+            .lists{
+               
+                height: 2.5rem;
+               
+            }
+            .list {
+                padding: 1rem;
+                
+                &:first-child{
+                    padding:0.65rem;
+                }
+            }
+
+        }
+        &__banner {
+            
+            height: 280px;
+            padding:  0;
+    
+            .text {
+        
+                padding: 1.5rem 3rem;
+    
+                &__head {
+                font-size: 1rem;
+                font-weight: 500;
+                
+    
+            }
+                &__descr {
+                font-size: 0.6rem;
+                font-weight: 100;
+                
+            }
+            
+        }
+        }
+    
+        
+    }
+    
+}
+
+@media (min-width: 769px) and (max-width:1024px) {
+
+}
