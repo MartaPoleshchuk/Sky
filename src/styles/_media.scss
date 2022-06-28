@@ -175,7 +175,8 @@
         
     }
     .title {
-        
+        font-size: 1.3rem;
+        padding-top: 1.8rem;
     
         &__bottom {
            
@@ -290,9 +291,7 @@
         width: 80%;
         }
    
-   .swiper-wrapper{
-    margin:0 0 0 4%;
-   }
+   
     .bestproduct {
         
         width: 50%;
@@ -334,11 +333,7 @@
     .footer {
        
         &__information {
-            margin-top: 2.5rem;;
-            display:flex;
-            justify-content: space-around;
-            align-items: flex-start;
-           
+        
             .textheader {
                 
                 font-size: 0.6rem;
@@ -429,7 +424,296 @@
             height: 364px;
             
             padding: 2rem 0;
+            .text {
+
+                padding: 4rem 4rem;
+    
+                &__head {
+                font-size: 2rem;
+    
+            }
+                &__descr {
+                font-size: 0.8rem;
+                
+            }
+        }
             }
         
     }
+    .title {
+        font-size: 1.4rem;
+        padding-top: 2rem;
+    
+        &__bottom {
+           
+            font-size: 1.4rem;
+        }
+    
+       
+    }
+    
+    .choice{
+        width:40%;
+        padding-right: 1.5rem;
+        
+    }
+    
+    .wrappersmall {
+        
+        padding: 0.7rem 0;
+    
+        .matches {
+        font-size: 0.8rem;
+        padding: 0 1.3rem;
+        }   
+    
+    .selectposition{
+        
+        
+        gap:1.7rem;
+        }
+        .view {
+           
+            padding: 0.4rem;
+            width:5rem;
+            
+        }
+        
+    }
+
+    .product {
+        width:100%;
+    
+            padding:0 1rem;
+            
+        
+        .image {
+            width: 5rem;
+            height: 12rem;
+            margin: 2rem;
+    
+        }
+        
+        .pricerating {
+            justify-content: space-around;
+            gap:1rem;
+            
+            &__pricenew {
+                font-size: 0.8rem;
+            }
+            
+            
+        }
+        &__borders{
+            
+            border-right: none;
+        }
+        
+    }
+    .page{
+        margin:1rem auto;
+        padding: 0.5rem;
+       
+        
+        .p{
+            color: $color-lightgrey;
+            font-size: 0.8rem;
+        }
+        .select {
+            border: 1px solid $color-lightgrey;
+            padding: 3px 4px;
+        }
+    }
+    .swiper {
+        width: 90%;
+        }
+   
+    .bestproduct {
+        
+        width: 33%;
+       &__img{
+           height: 8rem;
+       }
+        
+      
+    }
+    
+    .help {
+       
+        &__title {
+            font-size: 0.75rem;
+            
+        }
+        &__text {
+            font-size: 0.75rem;
+        }
+        
+        &__input {
+    
+          width:14rem;
+        }
+      }
+    .footer {
+        &__navigation {
+    
+           
+            font-size: 0.8rem;
+            
+            .lists {
+                padding:0 3rem;
+               
+               
+            }
+            .list {
+                padding:1.5rem;
+            }
+            }
+       
+        &__information {
+           
+            .texttext {
+                font-size: 0.6rem;
+                
+            }
+        }
+        
+    }
+
+    .productpage {
+    
+        gap:5rem;
+    
+            .productpart {
+                
+                width: 50%;
+                padding:0 1.5rem;
+                
+                &__img {
+                    
+                    padding: 0.9rem 0;
+                    height: 29rem;
+    
+                }
+                
+                .smallimage {
+                    width:4.5rem;
+                    height: 4.5rem;
+                    margin:0.4rem;
+                    
+                }
+                .border {
+                   
+                    margin-top: 1.5rem;
+                    
+                   
+                }
+                .productselect {
+                   
+    
+                    .option{
+                        margin-top: 1rem;
+                        margin-bottom: 1rem;
+                        padding-left:0.1rem;
+                        color: $color-black;
+                        
+    
+                        &__1 {
+                            margin:1rem 0 0 0;
+                            color: $color-black;
+                            padding-left:0.3rem;
+                            
+                        }
+                        
+    
+                    } 
+                    
+                }
+                .product__price {
+                    font-size: 1.3rem;
+                    padding-top: 1.3rem;
+    
+                }
+    
+                .stars {
+                    
+                    gap:0.3rem;
+                }
+                .part {
+                    display:flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    gap: 0.5rem;
+                    font-size: 0.85rem;
+                    margin: .5rem 0 1.5rem 0;
+                    &__var {
+                        padding: 5px 10px;
+                        
+                        border: 1px solid $color_lightgrey;
+                        
+                    }
+                    &__blue{
+                        padding: 5px;
+                        border: 1px solid $color-link;
+                        color:$color-link;
+                    }
+                    &__title{
+                        
+                        width:5rem;
+                    }
+                    &__circle {
+                        position:relative;
+                        border: 1px solid $color-lightgrey;
+                        border-radius:50%;
+                        height:2rem;
+                        width:2rem;
+                    }
+                    .img {
+                        position: absolute;
+                        margin:0.85rem 0.28rem;
+                    }
+                    .img1 {
+                        position: absolute;
+                        margin:0.25rem 0.25rem;
+                    }
+                }
+                .receive {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-start;
+                    gap:0.5rem;
+    
+                    font-size: 0.85rem;
+                    &__row {
+                        display: flex;
+                        justify-self: start;
+                        align-items: center;
+                        gap:0.5rem;
+                    }
+                    
+                }
+                .part__buy {
+                    font-size: 0.8rem;
+                }
+                
+                .table1{
+                    width:100%;
+                    border-color: $color-lightgrey;
+                    border-bottom: 1px solid $color-lightgrey;
+                    
+                               
+                }
+                td {
+                   padding-top:0.5rem;
+                }
+                table td:first-child {
+                    width:35%;
+                }
+            }
+    
+    }
+
+
+
+    
 }
