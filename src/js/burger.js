@@ -10,3 +10,4 @@ document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', 
   burger.classList.remove('active')
   navMenu.classList.remove('active')
 }))
+

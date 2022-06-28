@@ -16,6 +16,8 @@
         font-size: 0.6rem;
     }   
     .header {
+        
+
         &__top {
             height: 0.9rem;
             font-size: 0.5rem;
@@ -46,29 +48,22 @@
                 
                 width: 50%;
                 margin-left: 1.2rem;
-               
                 
-    
                 &__text {
                 width: 80%;
                 margin: 0.5rem;
                 padding: 0.6rem 0.6rem 0.6rem 2rem;
-               
                 
                 }
                 
-                
-    
                 &:before {
                     
                     width: 1rem;
                     height: 1rem;
-                    
-        
+                
                     top: 1rem;
                     left:1rem;
-                    
-                   } 
+                } 
     
             }
             .side {
@@ -82,44 +77,38 @@
             &__element {
                 padding-right: 0.4rem;
             }
-    
-                
             }
         }
         &__navigation {
-            
+            padding-bottom: 0.5rem;
             background-color: $color-lightgrey;
     
             font-size: 0.9rem;
             font-weight: 400;
             
-    
             .lists{
-               
-                height: 0rem;
-                
-               
+            height: 0rem;
+             
             }
             
 
         }
         .burger {
             display: block;
-          }
+        }
         
           .burger.active .bar:nth-child(2) {
             opacity: 0;
             
-            
-          }
+        }
         
           .burger.active .bar:nth-child(1) {
             transform: translateY(8px) rotate(45deg);
-          }
+        }
         
           .burger.active .bar:nth-child(3) {
             transform: translateY(-8px) rotate(-45deg);
-          }
+        }
         
           .lists {
             position: fixed;
@@ -134,20 +123,19 @@
             text-align: center;
             background: #C4C4C4;
             
-        
             transition: .3s;
-          }
+        }
         
           .list {
             margin: 5px 0;
             padding: 0.5rem;
             font-weight: 600;
-          }
+        }
         
           .lists.active {
             
             left: 0;
-          }
+        }
         &__banner {
             
             height: 280px;
@@ -161,7 +149,6 @@
                 font-size: 1.5rem;
                 font-weight: 500;
                 
-    
             }
                 &__descr {
                 font-size: 1rem;
@@ -171,15 +158,13 @@
             
         }
         }
-    
-        
     }
     .title {
         font-size: 1.3rem;
         padding-top: 1.8rem;
     
         &__bottom {
-           
+        
             font-size: 1.2rem;
         }
     
@@ -210,8 +195,6 @@
         padding: 0 1rem;
         }   
     
-    
-        
             .p{
             font-size: 0.8rem;
             }
@@ -232,9 +215,6 @@
     .productline {
         display: flex;
         
-        // flex-direction: column;
-        // justify-content:space-evenly;
-        // align-items: center;
     }
     .adapt {
         position: absolute;
@@ -264,14 +244,11 @@
             &__pricenew {
                 font-size: 0.8rem;
             }
-            
-            
         }
         &__borders{
             border-left: 1px solid $color-lightgrey;
             border-right: 1px solid $color-lightgrey;
         }
-        
     }
     .page{
         margin:1rem auto;
@@ -296,8 +273,6 @@
         
         width: 50%;
         height: 12rem;
-        
-      
         &__img {
             height: 6rem;
             margin: 0 auto;
@@ -327,11 +302,24 @@
         }
         &__input {
     
-          width:12rem;
+        width:12rem;
         }
       }
     .footer {
        
+        &__navigation {
+    
+            font-size: 0.7rem;
+        .lists {
+                padding:0 2rem;
+            
+                height: 2.5rem;
+            
+            }
+            .list {
+                padding:1.3rem;
+            }
+            }
         &__information {
         
             .textheader {
@@ -348,7 +336,74 @@
             }
         }
     }
+    .productpage {
     
+        gap:3rem;
+    
+            .productpart {
+                
+                width: 50%;
+                padding:0 1.2rem;
+                
+                &__img {
+                    
+                    padding: 0.9rem 0;
+                    height: 25rem;
+    
+                }
+                
+                .smallimage {
+                    width:4.5rem;
+                    height: 4.5rem;
+                    margin:0.4rem;
+                    
+                }
+                .border {
+                margin-top: 1.3rem;
+                
+                }
+                .productselect {
+    
+                    .option{
+                        margin-top: 0.8rem;
+                        margin-bottom: 0.8rem;
+                
+                    } 
+                    
+                }
+                .product__price {
+                    font-size: 1.3rem;
+                    padding-top: 1.3rem;
+    
+                }
+    
+                .part {
+                    
+                    font-size: 0.75rem;
+                }
+                .receive {
+                    
+    
+                    font-size: 0.75rem;
+                                        
+                }
+                .part__buy {
+                    font-size: 0.75rem;
+                }
+                
+            }
+    
+    }
+    .btn__2 {
+        font-size: 0.75rem;
+    }
+    .btn__3 {
+        font-size: 0.75rem;
+    }
+    table td:first-child {
+        width:55%;
+    }
+
 }
 
 @media (min-width:769px)and (max-width:1024px) {
@@ -388,21 +443,18 @@
                 
                 width: 50%;
                 margin-left: 1rem;
-                  
-                
-                 
+            
             }
            
             .side {
                 // width: 30%;
                 font-size: 0.7rem;
-                  
-               
-               &__element {
-                   padding-right: 0.7rem;
+            
+        
+            &__element {
+                padding-right: 0.7rem;
                }
-    
-                
+      
             }
         }
         &__navigation {
@@ -415,8 +467,7 @@
             }
             .list {
                 padding: 1rem;
-                
-                }
+            }
        
     
         }
@@ -485,8 +536,7 @@
         width:100%;
     
             padding:0 1rem;
-            
-        
+
         .image {
             width: 5rem;
             height: 12rem;
@@ -501,8 +551,7 @@
             &__pricenew {
                 font-size: 0.8rem;
             }
-            
-            
+
         }
         &__borders{
             
@@ -532,10 +581,8 @@
         
         width: 33%;
        &__img{
-           height: 8rem;
+        height: 8rem;
        }
-        
-      
     }
     
     .help {
@@ -561,8 +608,7 @@
             
             .lists {
                 padding:0 3rem;
-               
-               
+
             }
             .list {
                 padding:1.5rem;
@@ -573,7 +619,6 @@
            
             .texttext {
                 font-size: 0.6rem;
-                
             }
         }
         
@@ -602,118 +647,38 @@
                     
                 }
                 .border {
-                   
-                    margin-top: 1.5rem;
-                    
-                   
+                    margin-top: 1.3rem;
+
                 }
                 .productselect {
-                   
-    
+
                     .option{
-                        margin-top: 1rem;
-                        margin-bottom: 1rem;
-                        padding-left:0.1rem;
-                        color: $color-black;
-                        
-    
-                        &__1 {
-                            margin:1rem 0 0 0;
-                            color: $color-black;
-                            padding-left:0.3rem;
-                            
-                        }
-                        
-    
+                        margin-top: 0.8rem;
+                        margin-bottom: 0.8rem;
+
                     } 
                     
                 }
                 .product__price {
                     font-size: 1.3rem;
                     padding-top: 1.3rem;
-    
                 }
     
-                .stars {
+                 .part {
                     
-                    gap:0.3rem;
-                }
-                .part {
-                    display:flex;
-                    justify-content: flex-start;
-                    align-items: center;
-                    gap: 0.5rem;
-                    font-size: 0.85rem;
-                    margin: .5rem 0 1.5rem 0;
-                    &__var {
-                        padding: 5px 10px;
-                        
-                        border: 1px solid $color_lightgrey;
-                        
-                    }
-                    &__blue{
-                        padding: 5px;
-                        border: 1px solid $color-link;
-                        color:$color-link;
-                    }
-                    &__title{
-                        
-                        width:5rem;
-                    }
-                    &__circle {
-                        position:relative;
-                        border: 1px solid $color-lightgrey;
-                        border-radius:50%;
-                        height:2rem;
-                        width:2rem;
-                    }
-                    .img {
-                        position: absolute;
-                        margin:0.85rem 0.28rem;
-                    }
-                    .img1 {
-                        position: absolute;
-                        margin:0.25rem 0.25rem;
-                    }
+                    font-size: 0.75rem;
+
                 }
                 .receive {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: flex-start;
-                    gap:0.5rem;
-    
-                    font-size: 0.85rem;
-                    &__row {
-                        display: flex;
-                        justify-self: start;
-                        align-items: center;
-                        gap:0.5rem;
-                    }
                     
+    
+                    font-size: 0.75rem;
+                                        
                 }
                 .part__buy {
-                    font-size: 0.8rem;
+                    font-size: 0.75rem;
                 }
                 
-                .table1{
-                    width:100%;
-                    border-color: $color-lightgrey;
-                    border-bottom: 1px solid $color-lightgrey;
-                    
-                               
-                }
-                td {
-                   padding-top:0.5rem;
-                }
-                table td:first-child {
-                    width:35%;
-                }
             }
-    
-    }
-
-
-
-    
+        }
 }

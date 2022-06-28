@@ -36,6 +36,7 @@
             &__title {
                 color: $color-black;
                 font-weight: 600;
+                text-decoration: none;
 
             }
         }
@@ -132,8 +133,6 @@
                 padding:0.65rem;
             }
         }
-       
-      
         .red {
             color:red;
         }
@@ -182,11 +181,9 @@
         height: 3px;
         margin:5px;
         
-        
       
         -webkit-transition: all .3s ease-in-out;
         transition: all .3s ease-in-out;
-      
         background-color: $color-blue;
       }
 
